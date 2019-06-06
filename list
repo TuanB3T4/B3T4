@@ -99,7 +99,7 @@ echo
 fi
 
 if 
-[ $fcm = 2 ] || [ $fcm = 2 ]
+[ $fcm = 4 ] || [ $fcm = 4 ]
 then
 clear
 toilet -f slant " EXIT " |lolcat
