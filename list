@@ -24,11 +24,11 @@ echo "[=]              VERSION=1              [=]" | lolcat
 echo "[=][===================================][=]" | lolcat
 echo "[=]                LIST                 [=]" | lolcat
 echo "[=][===================================][=]" | lolcat
-echo "[1]. CEK IP WEBSITE " | lolcat
-echo "[2]. DDOS " | lolcat
-echo "[3]. DEFACE BRUTAL" | lolcat
-echo "[4]. EXIT" | lolcat
-echo   "[=][===================================][=]" | lolcat
+echo "[=] 1. CEK IP WEBSITE                   [=]" | lolcat
+echo "[=] 2. DDOS                             [=]" | lolcat
+echo "[=] 3. DEFACE BRUTAL                    [=]" | lolcat
+echo "[=] 4. EXIT                             [=]" | lolcat
+echo "[=][===================================][=]" | lolcat
 echo "╭─[=]B3T4[=]" Masukan Piliha  Anda |lolcat
 read -p "╰─#" fcm
 echo
