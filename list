@@ -23,7 +23,7 @@ echo "[=]              VERSION=1              [=]" | lolcat
 #########################################################
 echo
 echo "[=][===================================][=]" | lolcat
-echo "[=]                LIST                  [=]" | lolcat
+echo "[=]                LIST                 [=]" | lolcat
 echo "[=][===================================][=]" | lolcat
 echo "[1]. CEK IP WEBSITE " | lolcat
 echo "[2]. DDOS " | lolcat
