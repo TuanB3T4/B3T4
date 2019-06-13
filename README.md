@@ -1,5 +1,5 @@
-# Friends Cyber Muslim
-Tools
+# Tools
+
 Cara install
 
 apt update && apt upgrade
