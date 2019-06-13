@@ -11,18 +11,19 @@ yellow='\033[33;1m'
 clear
 #######################################################
 
-toilet -f slant "Tools" | lolcat
-
+toilet -f slant "  Tools" | lolcat
+toilet -f slant "Sederhana" | lolcat
 #######################################################
-echo "[=][===================================][=]" | lolcat
-echo "[=] Tools    : Friend Cyber Muslim      [=] " |lolcat
-echo "[=] Creadby  : Tuan B3T4 & MH.REGA      [=] " |lolcat
-echo "[=] Contact  : 085694011450             [=] " |lolcat
-echo "[=][===================================][=]" | lolcat
-echo "[=]              VERSION=1              [=]" | lolcat
+echo"
+╔═══❖•ღڿڰۣ✿•°•✿ڿڰۣღ•❖═══╗​​​
+ 
+  ​《(ঔৣ͡✞Tuan B3T4͜͡✦ঔৣ͡✞)》
+
+╚═══❖•ღڿڰۣ✿•°•✿ڿڰۣღ•❖═══╝​​​​" | lolcat
 #########################################################
 echo "[=][===================================][=]" | lolcat
 echo "[=]                LIST                 [=]" | lolcat
+echo "[=]              VERSION 1              [=]" | lolcat
 echo "[=][===================================][=]" | lolcat
 echo "[=] 1. CEK IP WEBSITE                   [=]" | lolcat
 echo "[=] 2. DDOS                             [=]" | lolcat
