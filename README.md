@@ -10,9 +10,9 @@ pkg install toilet
 
 pkg install git
 
-git clone https://github.com/TuanB3T4/FCM
+git clone https://github.com/TuanB3T4/B3T4
 
-cd FCM
+cd B3T4
 
 chmod +x list
 
